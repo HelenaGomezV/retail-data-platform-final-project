@@ -43,9 +43,22 @@ to predict retail sales.
 - Kubernetes
 - Terraform
 - Amazon Web Services (AWS)
+- 
+### Machine Learning Models & MLOps
+Multiple regression models are evaluated to identify the best-performing approach for retail
+sales prediction.
 
-### Machine Learning & MLOps
-- scikit-learn / XGBoost
+Models include:
+- Linear Regression (baseline)
+- Ridge / Lasso / ElasticNet
+- Random Forest Regressor
+- Gradient Boosting Regressor
+- XGBoost
+- LightGBM
+- CatBoost
+- SARIMAX / Prophet (benchmark time-series models)
+
+Model selection is based on cross-validation and performance metrics such as RMSE, MAE, and MAPE.
 - Model versioning and evaluation
 - Centralized logging and observability
 
